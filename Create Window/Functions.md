@@ -5,6 +5,8 @@
     #include<glad/glad.h>
     #include<GLFW/glfw3.h>
 ```
+## Chú ý:
+Trong cửa sổ của openGL nếu bạn sử dụng hàm glViewport(0, 0, 800, 600) để đặt kích thước cửa sổ đồ họa là 800 pixel chiều rộng và 600 pixel chiều cao, thì giá trị 1.0f trong hệ tọa độ NDC sẽ tương ứng với kích thước của cửa sổ đồ họa.
 ## Main Function
 ```cpp
 glfwInit()
