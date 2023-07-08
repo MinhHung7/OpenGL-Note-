@@ -1,6 +1,11 @@
 # Guide to create triangles on OpenGL Window 
 ## Graphics Pineline
 ![](https://github.com/MinhHung7/OpenGL/blob/main/Create%20Triangle/Screenshot%202023-07-06%20110143.png)
+## Giải thích về Shape Assembly và Geometry Shader
+**Shape Assembly:**
+Shape Assembly (tạm dịch: Lắp ráp hình dạng): Shape Assembly là một công nghệ trong đồ họa máy tính dùng để xây dựng hình dạng phức tạp bằng cách kết hợp các hình dạng đơn giản. Các hình dạng đơn giản được gọi là "shape primitives" (hình dạng nguyên thủy), chẳng hạn như các khối hình hộp, hình cầu, hình trụ, vv. Bằng cách lắp ráp các hình dạng này lại với nhau, ta có thể tạo ra hình dạng phức tạp hơn.<br>
+**Geometry Shader:**
+Geometry Shader (tạm dịch: Đa hình hóa): Geometry Shader là một giai đoạn trong quá trình xử lý đồ họa máy tính, nằm trong pipeline của GPU (Đơn vị xử lý đồ họa). Geometry Shader nhận đầu vào là các hình dạng hình học (geometry) từ giai đoạn trước đó và có khả năng biến đổi chúng để tạo ra các hình dạng mới. Điều này cho phép chúng ta thực hiện các phép biến đổi không gian, như thu nhỏ, phóng to, xoay, đẩy, và còn nhiều hiệu ứng hình dạng phức tạp khác.
 ## Buiding code
 ```cpp
 // Định nghĩa mã nguồn cho vertexShaderSource (xác định tọa độ đỉnh)
