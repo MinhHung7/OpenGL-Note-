@@ -11,3 +11,4 @@ Index buffer giúp tiết kiệm bộ nhớ và tăng hiệu suất vẽ, đặc
 <br>Chúng ta thấy rằng để vẽ được hình trên ta cần lưu trữ đến 9 đỉnh
 <br>Trong đó cặp đỉnh (1, 3), (2, 6), (5, 7) lại trùng nhau. Điều này sẽ gây ra việc lãng phí bộ nhớ
 <br>Do vậy thực chất chúng ta chỉ cần 6 đỉnh
+![](https://github.com/MinhHung7/OpenGL-Note-/blob/main/Index_Buffer/Assets/Index_Buffer.png)
